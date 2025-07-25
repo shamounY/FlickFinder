@@ -1,0 +1,39 @@
+# === Node.js ===
+node_modules/
+dist/
+build/
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Runtime data ===
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# === OS/System ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === Env files ===
+.env
+.env.local
+.env.*.local
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Output ===
+coverage/
+*.log
+
+# === Misc ===
+tempCodeRunnerFile.py
+*.zip

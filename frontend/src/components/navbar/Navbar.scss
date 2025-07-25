@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+.nav-bar {
+    background-color: #333; // Dark background for the navbar
+    padding: 1rem 2rem; // Padding around the navbar for spacing
+  
+    nav {
+      display: flex; // Arrange the nav content horizontally
+      justify-content: right;
+    }
+  
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 2rem; // Space between list items
+    }
+  
+    li {
+      font-size: 1rem; 
+      font-weight: bold; 
+    }
+  
+    a {
+      text-decoration: none; // Remove underline
+      color: #fff; // White text color
+  
+      &:hover {
+        color: #ff9800; // Highlight color on hover
+      }
+  
+      &:active {
+        color: #ff5722; // Change color when active
+      }
+    }
+  }
+  
